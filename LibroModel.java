@@ -1,9 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package aev4;
-
 import com.csvreader.CsvReader;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -13,10 +7,6 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- *
- * @author DAM 2
- */
 public class LibroModel extends DBUtil {
 
     public ArrayList<Libro> importarCSV(String ruta, String caracter) {
